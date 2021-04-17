@@ -1,20 +1,20 @@
 # Blog
 
-## Production
+## Production Site
 
-- @TODO
+- [@TODO](#)
 
-## Development
+## Development Site
 
-- @TODO
+- [@TODO](#)
 
-## Database
+## Database Project
 
 - Repository: https://github.com/nandotess/blog-database
 - [Sanity.io](https://www.sanity.io/) (headless database)
 - [Node.js](https://www.sanity.io/docs/content-modelling) (content modeling)
 
-## Backend
+## Backend Project
 
 - Repository: https://github.com/nandotess/blog-backend
 - [Vercel](https://vercel.com/) (cloud hosting)
@@ -22,7 +22,7 @@
   - [Material-UI](https://material-ui.com/) (React UI framework)
   - [REST API](https://www.sanity.io/docs/http-api) (communication with the database)
 
-## Frontend
+## Frontend Project
 
 - Repository: https://github.com/nandotess/blog-frontend
 - [Vercel](https://vercel.com/) (cloud hosting)
