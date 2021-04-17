@@ -6,7 +6,7 @@
 
 ## Production CMS (backend)
 
-- [#](#)
+- [admin-digital-extremes.vercel.app](https://admin-digital-extremes.vercel.app/)
 
 ## Database Project
 
@@ -19,8 +19,8 @@
 - Repository: https://github.com/nandotess/blog-backend
 - [Vercel](https://vercel.com/) (cloud hosting)
 - [React](https://reactjs.org/)
-  - [Material-UI](https://material-ui.com/) (React UI framework)
   - [REST API](https://www.sanity.io/docs/http-api) (communication with the database)
+- [Material-UI](https://material-ui.com/) (React UI framework)
 
 ## Frontend Project (Blog)
 
