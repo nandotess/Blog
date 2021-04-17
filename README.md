@@ -1,12 +1,12 @@
 # Blog
 
-## Production Site
+## Production Site (frontend)
 
-- [@TODO](#)
+- [blog-digital-extremes.vercel.app](https://blog-digital-extremes.vercel.app/)
 
-## Development Site
+## Production CMS (backend)
 
-- [@TODO](#)
+- [#](#)
 
 ## Database Project
 
@@ -14,7 +14,7 @@
 - [Sanity.io](https://www.sanity.io/) (headless database)
 - [Node.js](https://www.sanity.io/docs/content-modelling) (content modeling)
 
-## Backend Project
+## Backend Project (CMS)
 
 - Repository: https://github.com/nandotess/blog-backend
 - [Vercel](https://vercel.com/) (cloud hosting)
@@ -22,7 +22,7 @@
   - [Material-UI](https://material-ui.com/) (React UI framework)
   - [REST API](https://www.sanity.io/docs/http-api) (communication with the database)
 
-## Frontend Project
+## Frontend Project (Blog)
 
 - Repository: https://github.com/nandotess/blog-frontend
 - [Vercel](https://vercel.com/) (cloud hosting)
