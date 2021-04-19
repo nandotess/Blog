@@ -18,8 +18,12 @@
 
 - Repository: https://github.com/nandotess/blog-backend
 - [Vercel](https://vercel.com/) (cloud hosting)
+- [Node.js](https://www.sanity.io/docs/content-modelling) (communication with the database and SSR)
 - [React](https://reactjs.org/)
-  - [REST API](https://www.sanity.io/docs/http-api) (communication with the database)
+- [Next.js](https://nextjs.org/) (React Framework)
+  - [GROQ](https://www.sanity.io/docs/groq) (communication with the database - GET)
+  - [REST API](https://www.sanity.io/docs/http-api) (communication with the database - POST, PUT and DELETE)
+  - [SSR](https://vercel.com/blog/nextjs-server-side-rendering-vs-static-generation) (Server Side Rendering)
 - [Material-UI](https://material-ui.com/) (React UI framework)
 
 ## Frontend Project (Blog)
@@ -28,12 +32,12 @@
 - [Vercel](https://vercel.com/) (cloud hosting)
 - [React](https://reactjs.org/)
 - [Next.js](https://nextjs.org/) (React Framework)
-  - [GROQ](https://www.sanity.io/docs/groq) (communication with the database)
+  - [GROQ](https://www.sanity.io/docs/groq) (communication with the database - GET)
   - [SSG](https://vercel.com/blog/nextjs-server-side-rendering-vs-static-generation) (Incremental Static Generation)
 
 ## Notes
 
-- The main benefit to having the 3 applications running in different servers with different URLs is the possibility to restrict access (improving security). On the backend application (CMS), we could restrict access to it using a VPN, for example. On the frontend application (Site/Blog), the database is currently only accessible on the server, so the URL and any other sensitive data are already hidden from the final user.
+- The main benefit to having the 3 applications running in different servers with different URLs is the possibility to restrict access (improving security). On the backend application (CMS), we could restrict access to it using a VPN, for example. For now, we are using SSO (Google). On the frontend application (Site/Blog), the database is currently only accessible on the server, so the URL and any other sensitive data are already hidden from the final user.
 
 - [Sanity.io](https://www.sanity.io/) is used as the database source for a few reasons:
 
@@ -45,4 +49,4 @@
 
 - [Next.js](https://nextjs.org/) + [Vercel](https://vercel.com/) was the combination chosen for the frontend application (Site/Blog), among other things, because it delivers a powerful combination of Server Side Rendering and Static Generation. With the [Incremental Static Generation](https://vercel.com/blog/nextjs-server-side-rendering-vs-static-generation), it's possible to have the static pages generated with a revalidation of the content pretty generous (the current configuration is set to one minute, **that means all the content updated on the CMS will be live to the user, not more than 1 minute later**). On top of that, all this static content is stored in Vercel's CDN.
 
-- [React](https://reactjs.org/) + [Material-UI](https://material-ui.com/) + [Vercel](https://vercel.com/) was the combination chosen for the backend application (CMS), among other things, because it delivers a powerful set of components ready to go. **Authentication**, **Grids**, **Forms**, ... there are many resources that make the creation of a CRUD system easy, so we can focus only on the business rules and not standards already defined by the industry.
+- [Next.js](https://nextjs.org/) + [Vercel](https://vercel.com/) + [Material-UI](https://material-ui.com/) was the combination chosen for the backend application (CMS), among other things, because it delivers a powerful set of components ready to go. **Authentication**, **Grids**, **Forms**, ... there are many resources that make the creation of a CRUD system easy, so we can focus only on the business rules and not standards already defined by the industry.
