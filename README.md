@@ -2,11 +2,11 @@
 
 ## Production Site (frontend)
 
-- [blog-digital-extremes.vercel.app](https://blog-digital-extremes.vercel.app/)
+- [blog-nandotess.vercel.app](https://blog-nandotess.vercel.app/)
 
 ## Production CMS (backend)
 
-- [admin-digital-extremes.vercel.app](https://admin-digital-extremes.vercel.app/)
+- [admin-nandotess.vercel.app](https://admin-nandotess.vercel.app/)
 
 ## Database Project
 
