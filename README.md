@@ -12,7 +12,7 @@
 
 - Repository: https://github.com/nandotess/blog-database
 - [Sanity.io](https://www.sanity.io/) (headless database)
-- [Node.js](https://www.sanity.io/docs/content-modelling) (content modeling)
+- [Node.js](https://www.sanity.io/docs/content-modelling) (content modelling)
 
 ## Backend Project (CMS)
 
