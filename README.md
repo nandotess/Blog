@@ -10,13 +10,13 @@
 
 ## Database Project
 
-- Repository: https://github.com/nandotess/blog-database
+- Repository: https://github.com/nandotess/Blog-Database
 - [Sanity.io](https://www.sanity.io/) (headless database)
 - [Node.js](https://www.sanity.io/docs/content-modelling) (content modelling)
 
 ## Backend Project (CMS)
 
-- Repository: https://github.com/nandotess/blog-backend
+- Repository: https://github.com/nandotess/Blog-Backend
 - [Vercel](https://vercel.com/) (cloud hosting)
 - [Node.js](https://www.sanity.io/docs/content-modelling) (communication with the database and SSR)
 - [React](https://reactjs.org/)
@@ -28,7 +28,7 @@
 
 ## Frontend Project (Blog)
 
-- Repository: https://github.com/nandotess/blog-frontend
+- Repository: https://github.com/nandotess/Blog-Frontend
 - [Vercel](https://vercel.com/) (cloud hosting)
 - [React](https://reactjs.org/)
 - [Next.js](https://nextjs.org/) (React Framework)
